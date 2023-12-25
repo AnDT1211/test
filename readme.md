@@ -37,8 +37,6 @@ thank you, just a test
 | abcd | xyz | aaaa | bbbb |
 
 
-![[Pasted image 20231225202250.png]]
-
-
+![[Pasted image 20231225202411.png]]
 
 
