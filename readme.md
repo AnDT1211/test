@@ -25,3 +25,20 @@ thank you, just a test
 [hello]{hello.md}
 
 [[hello]]
+
+[ahihi](./hello.md)
+[ahihi](hello.md)
+
+
+
+| a | b | c | d |
+|--|--|--|--|
+| 1 | 2 | 3 | 4 |
+| abcd | xyz | aaaa | bbbb |
+
+
+![[Pasted image 20231225202250.png]]
+
+
+
+
