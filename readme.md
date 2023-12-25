@@ -23,3 +23,5 @@ thank you, just a test
 
 
 [hello]{hello.md}
+
+[[hello]]
