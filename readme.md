@@ -1,30 +1,22 @@
-# day la muc 1
+# clone this project
 
-## day la muc 1a
-
-## `Stream` api
-
-# Compiling java
-
-de compile duoc file java ta dung lenh:
-
-```sh
-javac -d out App.java
+```
+git clone https://github.com/AnDT1211/test
 ```
 
-# Run file java
+# How to build:
+dung lenh sau:
 
-```sh
-java -cp out App
+```
+./gradlew clean build
 ```
 
-Multi-Module Compilation: đây là 1 kỹ thuật compile nhiều module 1 lúc nhưng với điều kiện: 
+# How to run
+dung task run
 
-- các source file java phải để đúng cấu trúc package
-- tất cả các module phải gói thành 1 folder có **tên là tên của module luôn** (module tên `com.abc` thì folder tên com.abc luôn chứ không phân tầng giống package)
-- các folder module này phải nằm trong 1 folder tổng (đây là module source path)
+```
+./gradlew run
+```
 
-ta sẽ dùng 2 option:
-
-- `--module-source-path`: chỉ đến các folder tổng chứa nhiều folder module
-- `--module` hay `-m`: chỉ ra cái module nào cần compile, nó sẽ auto compile luôn các module khác cần thiết cho module đang được chỉ ra hoặc compile luôn cái package nào mà module được chỉ ra đang `exports`, `requires`
+# Last word
+thank you, just a test
